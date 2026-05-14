@@ -1,0 +1,76 @@
+body {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* agregado por mi */
+  text-align:justify;
+   margin: auto;
+ width: 700px;
+ background-color: rgb(158, 215, 246);
+ background-image: url(../img/fondo.png);
+  background-size:auto;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+  color: #06283D;
+  
+  }
+main {
+  background-color: rgb(64, 168, 224);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+strong {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+header, nav, footer {
+  background-color:  rgb(64, 168, 224);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #06283D;
+ 
+}
+
+article p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+  color: #06283D;
+}
+
+ /* links del nav */
+
+
+ a:link {
+  
+  color : #b9e3ff; 
+} 
+
+a:visited {
+  color : #06283D;
+}
+
+a:hover {
+  color : #13679b;
+
+}
