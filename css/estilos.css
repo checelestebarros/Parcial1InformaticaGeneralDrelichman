@@ -60,14 +60,14 @@ article p::first-letter {
 
  /* links del nav */
 
- a:visited {
-   color : #FFFFFF;
- }
  a:link {
   
   color : #b9e3ff; 
 } 
 
+ a:visited {
+   color : #FFFFFF;
+ }
 a:hover {
   color : #13679b;
 
