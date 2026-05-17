@@ -66,10 +66,6 @@ article p::first-letter {
   color : #b9e3ff; 
 } 
 
-a:visited {
-  color : #06283D;
-}
-
 a:hover {
   color : #13679b;
 
