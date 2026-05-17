@@ -60,7 +60,9 @@ article p::first-letter {
 
  /* links del nav */
 
-
+ a:visited {
+   color : #FFFFFF;
+ }
  a:link {
   
   color : #b9e3ff; 
